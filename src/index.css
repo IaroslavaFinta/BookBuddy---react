@@ -1,0 +1,172 @@
+.main{
+  background-color: #F7C0D2;
+  color:#7E2D2D;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: Georgia, serif;
+  margin: 0px;
+  padding: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.logo{
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+#logo-image {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.home, .account{
+  padding: 100px;
+}
+
+.login {
+  line-height: 1.1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.navbar {
+  justify-content: space-evenly;
+  display: flex;
+  position: fixed;
+  margin-top: 100px;
+  top: 0;
+}
+
+.nav{
+  padding: 100px;
+  text-align: center;
+}
+
+form {
+  color: black;
+  background-color: white;
+  margin: 40px;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin: 10px;
+  width: 500px;
+  place-items: center;
+  justify-content: center;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+}
+
+.email, .password, .lastName, .firstName  {
+  padding: 15px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead {
+  text-align: center;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  text-align: left;
+  height: 40px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: smaller;
+}
+
+.singleBook{
+  margin: 70px;
+  font-size: medium;
+}
+
+h3 {
+  font-size: smaller;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.search-bar {
+  padding: 40px;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+
+.input-wrapper {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.search-input{
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .main{
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
