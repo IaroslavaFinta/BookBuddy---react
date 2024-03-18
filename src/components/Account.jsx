@@ -25,7 +25,7 @@ export default function Account({ token }) {
 
   useEffect(() => {
     getReservations();
-  }, [reservations]);
+  }, []);
 
   return (
     <>
