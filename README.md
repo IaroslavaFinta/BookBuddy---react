@@ -1,4 +1,4 @@
-** Book Buddy **
+# Book Buddy 
 
 Built BookBuddy, an online library for the public, using React and various web development technologies. The project integrates with a pre-built API to manage books in the library. The app allows authorized and unauthorized users to view a list of books, see details for individual books, and perform actions like adding, editing, and deleting books.
 
